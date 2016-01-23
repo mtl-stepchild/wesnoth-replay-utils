@@ -18,8 +18,7 @@ UNCOMPRESSED_REPLAY_DIRECTORY = os.path.join(REPLAY_DIRECTORY, "uncompressed")
 COMPRESSED_REPLAY_DIRECTORY = os.path.join(REPLAY_DIRECTORY, "compressed")
 REPLAY_SERVER_URL = "http://replays.wesnoth.org/"
 REPLAY_URL_FILE_NAME = "URLs.txt"
-# PLAYERS = ["Talkative", "angerpersonified", "CenetaurmanE52", "Kagar", "Yarghenforgen", "GiantAngrySeaSerpe"]
-PLAYERS = ["Talkative", "angerpersonified"]
+PLAYERS = []
 
 def cell_to_href(cell):
     return cell.find("a")["href"]
